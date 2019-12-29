@@ -1,0 +1,1 @@
+    | |   | |   "AAPL,ig-platform-id" = <00001b19>

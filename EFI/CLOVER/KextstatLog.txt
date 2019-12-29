@@ -1,0 +1,53 @@
+ACPIPLAT LOG :-
+   16    2 0xffffff7f82aad000 0x9b000    0x9b000    com.apple.driver.AppleACPIPlatform (6.1) ADDDBB5F-8BA0-3091-9525-E47B055052F6 <15 13 12 8 7 6 5 3 1>
+END ACPIPLAT LOG.
+ 
+ 
+APPLEINTELCPU LOG:-
+END APPLEINTELCPU LOG.
+ 
+ 
+APPLE LPC LOG:-
+END APPLE LPC LOG.
+ 
+ 
+APPLE HDA LOG:-
+  120    1 0xffffff7f826d4000 0x1d000    0x1d000    com.apple.driver.AppleHDAController (283.15) F266EB6A-29C1-369A-9391-28536E347750 <119 118 53 13 8 7 6 5 3 1>
+  155    0 0xffffff7f82855000 0xb7000    0xb7000    com.apple.driver.AppleHDA (283.15) 860FE6DA-65DD-3899-9ED8-AC609798A12A <154 127 120 119 118 53 7 6 5 3 1>
+  158    0 0xffffff7f826f3000 0x2000     0x2000     com.apple.driver.AppleHDAHardwareConfigDriver (283.15) 0A1F938A-5687-3C4D-BBF4-B52146B2A64F <5 3>
+END APPLE HDA LOG.
+ 
+ 
+LS FOR APPLEHDA :-
+ls: /System/Library/Extensions/AppleHDA.kext/Contents/Resources/*.zml*: No such file or directory
+END LS FOR APPLEHDA.
+ 
+ 
+ASSERTIONS DUMP :-
+2019-12-13 21:20:44 -0400 
+Assertion status system-wide:
+   BackgroundTask                 0
+   ApplePushServiceTask           0
+   UserIsActive                   1
+   PreventUserIdleDisplaySleep    0
+   PreventSystemSleep             0
+   ExternalMedia                  0
+   PreventUserIdleSystemSleep     0
+   NetworkClientActive            0
+Listed by owning process:
+   pid 115(hidd): [0x0000032a0009824e] 00:00:00 UserIsActive named: "com.apple.iohideventsystem.queue.tickle serviceID:1000003f6 name:AppleUserHIDEventSe product:OM eventType:17"  
+	Timeout will fire in 119 secs Action=TimeoutActionRelease
+Kernel Assertions: 0x4=USB
+   id=503  level=255 0x4=USB mod=31/12/69 20:00 description=com.apple.usb.externaldevice.14300000 owner=OM
+   id=505  level=255 0x4=USB mod=31/12/69 20:00 description=com.apple.usb.externaldevice.14500000 owner=USB2.0-CRW
+   id=506  level=255 0x4=USB mod=31/12/69 20:00 description=com.apple.usb.externaldevice.14400000 owner=Lenovo EasyCamera
+   id=511  level=255 0x4=USB mod=31/12/69 20:00 description=com.apple.usb.externaldevice.14700000 owner=BCM20702A0
+Idle sleep preventers: IODisplayWrangler
+END DUMP FOR ASSERTIONS.
+ 
+ 
+DUMP FOR TRIM STATUS :-
+          TRIM Support: No
+END DUMP FOR TRIM STATUS.
+ 
+ 

@@ -1,0 +1,1 @@
+machdep.cpu.brand_string: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz

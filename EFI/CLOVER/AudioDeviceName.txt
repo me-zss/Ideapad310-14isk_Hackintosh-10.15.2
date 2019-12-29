@@ -1,0 +1,42 @@
++-o HDEF@1F,3  <class IOPCIDevice, id 0x1000001fb, registered, matched, active, busy 0 (472 ms), retain 10>
+    {
+      "acpi-device" = "IOACPIPlatformDevice is not serializable"
+      "IOPCIMSIMode" = Yes
+      "assigned-addresses" = <10fb00827f00000000000291000000000040000020fb00827f000000000000910000000000000100>
+      "vendor-id" = <86800000>
+      "class-code" = <00030400>
+      "subsystem-vendor-id" = <aa170000>
+      "hda-gfx" = <"onboard-1">
+      "IOName" = "pci8086,9d70"
+      "IOPCIPMCSState" = 8
+      "AFGLowPowerState" = <03000000>
+      "DigitalAudioCapabilities" = {"DisplayPort"=1,"HDMI"=1}
+      "pcidebug" = "0:31:3"
+      "layout-id" = <07000000>
+      "IOServiceDEXTEntitlements" = "com.apple.developer.driverkit.transport.pcie"
+      "IOInterruptControllers" = ("io-apic-0","IOPCIMessagedInterruptController")
+      "built-in" = <00>
+      "IOPCIResourced" = Yes
+      "AAPL,slot-name" = "Built In"
+      "IOPowerManagement" = {"ChildrenPowerState"=2,"CurrentPowerState"=2,"CapabilityFlags"=258,"ChildProxyPowerState"=2,"MaxPowerState"=3}
+      "IODeviceMemory" = (({"address"=547893673984,"length"=16384}),({"address"=547893542912,"length"=65536}))
+      "acpi-pmcap-offset" = 80
+      "name" = "Audio Controller"
+      "subsystem-id" = <08380000>
+      "alc-layout-id" = <03000000>
+      "model" = <"Apple High Definition Audio Controller">
+      "PinConfigurations" = <1040210120001790309081013010a1044000a090e0005628e0005628e0005628>
+      "MaximumBootBeepVolumeAlt" = <ee>
+      "device_type" = <"Audio Controller">
+      "compatible" = <"pci17aa,3808","pci8086,9d70","pciclass,040300","HDEF">
+      "IOReportLegendPublic" = Yes
+      "reg" = <00fb00000000000000000000000000000000000010fb00020000000000000000000000000040000020fb000200000000000000000000000000000100>
+      "MaximumBootBeepVolume" = <01>
+      "IOReportLegend" = ({"IOReportGroupName"="Interrupt Statistics (by index)","IOReportChannels"=((5291294645182070784,4295098369,"               First Level Interrupt Handler Count"),(5291294645182070785,4295098369,"              Second Level Interrupt Handler Count"),(5291294645182070786,4295098369,"        First Level Interrupt Handler Time (MATUs)"),(5291294645182070787,4295098369,"   Second Level Interrupt Handler CPU Time (MATUs)"),(5291294645182070788,4295098369,"Second Level Interrupt Handler System Time (MATUs)")),"IOReportChannelInfo"={"IOReportChannelUnit"=0},"IOReportSubGroupName"="HDEF 1"})
+      "device-id" = <709d0000>
+      "revision-id" = <21000000>
+      "IOInterruptSpecifiers" = (<1000000007000000>,<0500000000000100>)
+      "acpi-path" = "IOACPIPlane:/_SB/PCI0@0/HDEF@1f0003"
+    }
+    
+

@@ -1,0 +1,8 @@
+Codecs Detecteds:
+
+Vendor: ONBOARD
+Name: Conexant 20752
+Codec: 0x14f1510f
+
+(AppleHDA)	Conexant CX20751/2 (14f1:510f) Rev.(00100100)
+		Controller 8086:9d70 (sub-ven:17aa:3808)

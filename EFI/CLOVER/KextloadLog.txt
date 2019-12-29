@@ -1,0 +1,33 @@
+  117    0 0xffffff7f8346b000 0x6000     0x6000     com.apple.driver.AppleIntelPCHPMC (2.0.1) F1DBED69-D355-31A8-8101-1246C4DE9BD5 <116 15 13 12 5 3>
+  120    1 0xffffff7f826d4000 0x1d000    0x1d000    com.apple.driver.AppleHDAController (283.15) F266EB6A-29C1-369A-9391-28536E347750 <119 118 53 13 8 7 6 5 3 1>
+  155    0 0xffffff7f82855000 0xb7000    0xb7000    com.apple.driver.AppleHDA (283.15) 860FE6DA-65DD-3899-9ED8-AC609798A12A <154 127 120 119 118 53 7 6 5 3 1>
+  158    0 0xffffff7f826f3000 0x2000     0x2000     com.apple.driver.AppleHDAHardwareConfigDriver (283.15) 0A1F938A-5687-3C4D-BBF4-B52146B2A64F <5 3>
+   47    4 0xffffff7f829fe000 0x4000     0x4000     com.apple.iokit.IOSMBusFamily (1.1) F083A878-3906-34AB-9A93-DD0DE1480890 <6 5 3>
+  123    1 0xffffff7f82a9c000 0xe000     0xe000     com.apple.driver.AppleSMBusController (1.0.18d1) 6D0F0B74-2281-365C-9070-538848B48343 <47 13 12 6 5 3>
+  126    0 0xffffff7f82e90000 0x3000     0x3000     com.apple.driver.AppleSMBusPCI (1.0.14d1) 9D067570-3690-36B8-BD15-856E92A1795E <13 6 5 3>
+   16    2 0xffffff7f82aad000 0x9b000    0x9b000    com.apple.driver.AppleACPIPlatform (6.1) ADDDBB5F-8BA0-3091-9525-E47B055052F6 <15 13 12 8 7 6 5 3 1>
+  143    0 0xffffff7f82b82000 0x10000    0x10000    com.apple.driver.ACPI_SMC_PlatformPlugin (1.0.0) 9CA13857-B59D-3ADC-BEC1-E5D8E3135526 <142 116 15 13 12 8 7 6 5 3>
+  132    1 0xffffff7f82b99000 0x19000    0x19000    com.apple.driver.X86PlatformPlugin (1.0.0) 134B18EB-0AF1-3844-B968-332792E91614 <116 90 27 15 12 8 7 6 5 3 1>
+  159    1 0xffffff7f82bb2000 0x7000     0x7000     com.apple.driver.X86PlatformShim (1.0.0) F90748F4-FED4-384F-96EA-EC02E59021BE <132 116 15 8 5 3>
+Index Refs Address            Size       Wired      Name (Version) UUID <Linked Against>
+   41    8 0xffffff7f83a66000 0x22000    0x22000    as.vit9696.Lilu (1.4.0) D90C0A74-6E61-353E-8D57-96C781824E52 <8 6 5 3 2 1>
+   42    0 0xffffff7f83a88000 0x125000   0x125000   as.vit9696.AppleALC (1.4.4) 73649D93-8D83-30C0-A5C2-78DCBE7ABCC1 <41 13 8 6 5 3 2 1>
+   43    0 0xffffff7f83bad000 0x67000    0x67000    as.vit9696.WhateverGreen (1.3.5) 6ACC7CE0-CBAA-39FB-8176-054043B4EFF2 <41 13 8 6 5 3 2 1>
+   44    0 0xffffff7f83c14000 0x5000     0x5000     com.alexandred.VoodooI2CServices (1) 8D02CFDB-E378-3061-8591-7E199076722D <5 3>
+   45    3 0xffffff7f83c19000 0x11000    0x11000    as.vit9696.VirtualSMC (1.0.9) FEB5CDD9-665C-356B-8B65-4F2C689B6E05 <41 12 8 6 5 3 2 1>
+   46    0 0xffffff7f83c2a000 0x4000     0x4000     ru.usrsse2.SMCLightSensor (1) 48D3AF4D-B99A-375E-91E5-9332E794AB81 <45 41 12 8 6 5 3 2 1>
+   48    0 0xffffff7f83c2e000 0xa000     0xa000     ru.usrsse2.SMCBatteryManager (1) 10BB9FD7-86F5-396D-812C-9304104B8890 <47 45 41 12 8 6 5 3 2 1>
+   49    0 0xffffff7f83c38000 0x4000     0x4000     com.rehabman.driver.USBInjectAll (0.7.1) A5767EA0-3760-3131-B996-28EE85139CF5 <13 12 5 3>
+   50    0 0xffffff7f83c3d000 0xa000     0xa000     fish.goldfish64.SystemProfilerMemoryFixup (1.0.0) 2A9DE676-5F0B-3C02-898F-DF98AC03F214 <41 8 6 5 3 2 1>
+   51    0 0xffffff7f83c47000 0x4000     0x4000     xyz.racermaster.NoTouchID (1.0.2) E7D2E236-5A4F-3EC1-BDA8-C1352AA5025B <41 8 6 5 3 2 1>
+   54    0 0xffffff7f83c4b000 0x8000     0x8000     org.tw.CodecCommander (2.6.3) 6032938E-4161-35BC-9507-DE73BFA6ABB3 <53 13 12 5 3 1>
+   55    1 0xffffff7f83c5a000 0x260000   0x260000   as.acidanthera.BrcmFirmwareStore (2.5.0) E0839E7B-E8F1-30F0-9447-DDEA68AFAA0B <6 5 3>
+   56    0 0xffffff7f83eba000 0x5000     0x5000     as.vit9696.SMCProcessor (1.0.9) 1A268DC3-3775-37B8-ABA2-4D8C407E6819 <45 41 12 8 6 5 3 2 1>
+   67    3 0xffffff7f83ebf000 0xb000     0xb000     org.rehabman.voodoo.driver.PS2Controller (1.9.2) E11711CB-AFEA-384E-97B8-B8EECB515995 <12 8 6 5 3 1>
+   86    0 0xffffff7f83eca000 0x7000     0x7000     org.rehabman.driver.FakePCIID (1.3.15) B185B092-1FC9-308E-B093-32FD88E5822D <13 8 6 5 3 1>
+   87    0 0xffffff7f83ed1000 0x67000    0x67000    com.insanelymac.RealtekRTL8111 (2.2.1) 07D64653-7867-3C3A-837B-E491B33C21B7 <18 13 6 5 3 1>
+  101    0 0xffffff7f83f38000 0xc000     0xc000     org.rehabman.voodoo.driver.PS2Trackpad (1.9.2) 172C5C14-5D31-3BE0-A947-59A4F3938B90 <68 67 17 8 7 6 5 3 1>
+  102    0 0xffffff7f83c53000 0x4000     0x4000     org.rehabman.voodoo.driver.PS2Mouse (1.9.2) 543C2723-E8F2-32CC-947E-F8A3B33E0E14 <68 67 6 5 3>
+  103    0 0xffffff7f83f44000 0x6000     0x6000     org.rehabman.voodoo.driver.PS2Keyboard (1.9.2) 0AD6AD57-1F08-39DF-A616-39715E69C536 <68 67 17 8 7 6 5 3 1>
+  104    0 0xffffff7f83f4a000 0x5000     0x5000     as.acidanthera.BrcmPatchRAM3 (2.5.0) A6812F3E-DF9B-36F3-966B-FE592C6EBFDA <55 27 6 5 3 1>
+  165    0 0xffffff7f83f4f000 0x17000    0x17000    com.tuxera.filesystems.tuxera_ntfs (2017.12.18) 8425857F-FADB-51B7-50A3-30DB7629D80D <8 6 5 3 1>
